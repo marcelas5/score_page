@@ -1,11 +1,17 @@
 import { useState } from "react";
 
-export default function CharacterAttributes({ totalPoints }) {
+type CharacterAttributesProps = {
+  totalPoints: number;
+};
+
+export default function CharacterAttributes({totalPoints}: CharacterAttributesProps) {
   const [points, setPoints] = useState(totalPoints);
   const [strength, setStrength] = useState(0);
   const [speed, setSpeed] = useState(0);
 
-  const handleAttributeChange = (event, attributeName) => {
+  const handleAttributeChange = (  event: React.ChangeEvent<HTMLInputElement>,
+    attributeName: "strength" | "speed"
+    ) => {
     if (attributeName === "strength") {
       const newStrength = parseInt(event.target.value);
       let newSpeed = speed;
