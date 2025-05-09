@@ -2,6 +2,7 @@
 import './index.css'
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
+import Points from './Score'
 
 const faqs = [
   {
@@ -13,6 +14,8 @@ const faqs = [
 
 export default function App() {
   return (
+    <>
+    <Points/>
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-4xl">
@@ -40,6 +43,7 @@ export default function App() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

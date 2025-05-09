@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-type CharacterAttributesProps = {
+type PointsProps = {
   totalPoints: number;
 };
 
-export default function CharacterAttributes({totalPoints}: CharacterAttributesProps) {
+export default function Points({ totalPoints }: PointsProps) {
   const [points, setPoints] = useState(totalPoints);
   const [strength, setStrength] = useState(0);
   const [speed, setSpeed] = useState(0);
