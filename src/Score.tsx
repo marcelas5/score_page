@@ -46,7 +46,7 @@ export default function Points({ totalPoints }: PointsProps) {
           step="1"
           onChange={(event) => handleAttributeChange(event, "strength")}
         />
-        Strength {strength}
+        First iteration {strength}
       </div>
       <div>
         <input
@@ -58,7 +58,7 @@ export default function Points({ totalPoints }: PointsProps) {
           step="1"
           onChange={(event) => handleAttributeChange(event, "speed")}
         />
-        Speed {speed}
+        Second iteration {speed}
       </div>
     </div>
   );
