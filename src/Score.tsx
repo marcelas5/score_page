@@ -35,7 +35,7 @@ export default function Points({ totalPoints }: PointsProps) {
 
   return (
     <div>
-      Character stats: <span id="points">{points}</span> points
+      Final score: <span id="points">{points}</span> points
       <div>
         <input
           type="range"
