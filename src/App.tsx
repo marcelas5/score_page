@@ -3,14 +3,8 @@ import './index.css'
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
 import Points from './Score'
+import { faqs } from "./faqs.ts";
 
-const faqs = [
-  {
-    question: "How are my points being calculated?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-]
 
 export default function App() {
   return (
