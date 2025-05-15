@@ -17,7 +17,7 @@ export const faqs: FAQ[] = [
   {
     question: "Can I change my scores after submitting?",
     answer:
-      "Currently, scores are considered final once submitted. We're working on an edit feature that will allow you to modify your inputs after submission in future versions.",
+      "Currently, scores are considered final once submitted. However, you can adjust your scores before submission. We are considering adding an edit feature in future updates.",
   },
   {
     question: "What do Clarity and Creativity represent?",
